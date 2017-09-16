@@ -4,6 +4,8 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	font-family: 'Indie Flower', cursive;
+
 
 }
 
@@ -12,8 +14,8 @@ body {
 	padding: 30px;
 	text-align: center;
 	font-size: 50px;
-	color: #C59CD9;
-	text-shadow: 2px 3px #bedcf6;
+	color: #dfb4f5;
+	text-shadow: 2px 3px #ddf0fb;
 }
 
 .instructions {
@@ -21,7 +23,7 @@ body {
 	text-align: center;
 	padding: 20px;
 	font-size: 30px;
-	background-color: #C59CD9;
+	background-color: #dfb4f5;
 	color: #ffffff;
 	border: 2px solid white;
 	border-radius: 25px;
@@ -38,15 +40,26 @@ p {
 	text-align: center;
 	padding: 20px;
 	font-size: 30px;
-	background-color: #C59CD9;
+	background-color: #dfb4f5;
 	color: #ffffff;
 	border: 2px solid white;
 	border-radius: 25px;
 	width: 80%;
+	margin-bottom: 10px;
 }
 
 .play {
 	padding: 10px;
 	margin: 10px;
+}
+
+.footer {
+	background: #dfb4f5;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	bottom: 1px;
 }
 
