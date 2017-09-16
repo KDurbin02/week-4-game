@@ -1,0 +1,52 @@
+body {
+	background-image: url(../images/background.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.head {
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+	font-size: 50px;
+	color: #C59CD9;
+	text-shadow: 2px 3px #bedcf6;
+}
+
+.instructions {
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #C59CD9;
+	color: #ffffff;
+	border: 2px solid white;
+	border-radius: 25px;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.game {
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #C59CD9;
+	color: #ffffff;
+	border: 2px solid white;
+	border-radius: 25px;
+	width: 80%;
+}
+
+.play {
+	padding: 10px;
+	margin: 10px;
+}
+
