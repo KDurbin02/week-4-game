@@ -4,6 +4,8 @@
 	<title>Crystal Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
 </head>
 <body>
 	<div class="head">
@@ -20,13 +22,13 @@
 		</p>
 	</div>
 	<div class="game">
-		<div class="play" id="target_number">
+		<div class="play">
 			<h1>Target Number</h1>
-			<div></div>
+			<div id="target_number"></div>
 		</div>
-		<div class="play" id="user_number">
+		<div class="play">
 			<h1>User Number</h1>
-			<div></div>
+			<div id="player_score"></div>
 		</div>
 		<div class="play">
 			<img id="c1" src="assets/images/crystal.jpg" width="200px">
@@ -44,6 +46,9 @@
 	<div class="footer">
 		<h3> Copywrite &copy; Kyla Durbin </h3>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
 
 </body>
 </html>
