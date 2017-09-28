@@ -73,7 +73,3 @@ $("#c4").click(function() {
     onClick(crystal4);
 });
 
-console.log(crystal1);
-console.log(crystal2);
-console.log(crystal3);
-console.log(crystal4);
