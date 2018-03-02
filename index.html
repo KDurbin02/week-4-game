@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Crystal Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 
 </head>
+
 <body>
 	<div class="head">
-		<h1>Crystals</h1>
+		<h1 id="title">Crystals</h1>
 	</div>
 	<div class="instructions">
 		<h2>Instructions</h2>
 		<hr>
-		<p>	Click on the crystals to raise your score to match the target number.<br>
-
-			Each crystal has a random number assigned to it for the duration of the game when it is clicked its value will be added to the value of the "User Answer".<br>
-
-			The game is won when the Target Number and the User Number are the same, if you go over then you lose and will be prompted if you would like to play again.
+		<p> Click on the crystals to raise your score to match the target number.
+			<br> Each crystal has a random number assigned to it for the duration of the game when it is clicked its value will be added
+			to the value of the "User Answer".
+			<br> The game is won when the Target Number and the User Number are the same, if you go over then you lose and will be prompted
+			if you would like to play again.
 		</p>
 	</div>
 	<div class="game">
@@ -31,10 +33,10 @@
 			<div id="player_score"></div>
 		</div>
 		<div class="play">
-			<img id="c1" src="assets/images/crystal.jpg" width="200px">
-			<img id="c2" src="assets/images/crystal.jpg" width="200px">
-			<img id="c3" src="assets/images/crystal.jpg" width="200px">
-			<img id="c4" src="assets/images/crystal.jpg" width="200px">
+			<img id="c1" class="crystal" src="assets/images/crystal.jpg">
+			<img id="c2" class="crystal" src="assets/images/crystal.jpg">
+			<img id="c3" class="crystal" src="assets/images/crystal.jpg">
+			<img id="c4" class="crystal" src="assets/images/crystal.jpg">
 		</div>
 		<div class="play">
 			<h1>Wins</h1>
@@ -51,4 +53,5 @@
 	<script src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>
